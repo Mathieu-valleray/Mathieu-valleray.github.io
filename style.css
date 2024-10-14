@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Germania+One&display=swap');
+
+body {
+    background-color: #cbf2d6;
+    font-family: "Germania One", system-ui;
+    text-align: center;
+    margin: 0; /* Enlève les marges par défaut */
+    padding: 0;
+}
+header {
+    text-align: center; /* Centre le contenu dans l'header */
+    padding: 20px;           /* Ajoute de l'espace autour du header */
+    background-color: #2ec996; /* Couleur d'arrière-plan pour démarquer le header */
+    border-bottom: 2px solid #cbf2d6; /* Séparateur pour bien délimiter l'entête */
+}
+
+#logo {
+    border-radius: 50%;      /* Fait de l'image un cercle */
+    margin-right: 20px;      /* Ajoute de l'espace à droite de l'image */
+    width: 100px;
+    height: 100px;
+}
+
+header div {
+    text-align: left;         /* Aligne le texte à gauche */
+}
+
+#nom {
+    font-size: 2.5rem;        /* Taille du texte pour ton nom */
+    font-family: 'Caveat', cursive;  /* Utilise une police cursive élégante */
+    color: white;             /* Couleur du texte */
+    margin: 0;                /* Enlève la marge par défaut */
+}
+
+header h2 {
+    font-size: 1.5rem;        /* Taille du texte pour le sous-titre */
+    color: #f0f0f0;           /* Légèrement plus clair que le nom */
+    margin-top: 5px;          /* Réduit l'espace entre le nom et la profession */
+}
+
+#sommaire {
+    margin: 40px auto;               /* Centre la section */
+    display: flex;                    /* Utilise flexbox pour la disposition */
+    justify-content: space-around;    /* Espace égal entre les éléments */
+    align-items: center;              /* Centre les éléments verticalement */
+    padding: 20px;                    /* Ajoute de l'espace autour du contenu */
+    background-color: ##cbf2d6;       /* Couleur d'arrière-plan */
+    border: 1px solid #cbf2d6;          /* Bordure légère autour de la section */
+    border-radius: 8px;              /* Coins arrondis */
+}
+
+#sommaire h3 {
+    font-size: 1.8rem;                /* Taille de police pour les titres */
+    color: #2ec996;                   /* Couleur du texte des titres */
+    margin: 0;                        /* Supprime les marges par défaut */
+    transition: color 0.3s, transform 0.3s; /* Transition pour le changement de couleur et d'animation */
+}
+
+#sommaire h3:hover {
+    color: #d173a8;                   /* Change la couleur au survol */
+    transform: scale(1.05);           /* Agrandit légèrement le titre au survol */
+}
+
+
+#competence {
+    background-color: #cbf2d6;  /* Couleur de fond douce */
+    padding: 20px;              /* Espacement interne */
+    border: 1px solid #cbf2d6;     /* Bordure grise */
+    border-radius: 8px;         /* Coins arrondis */
+    margin: 20px auto;          /* Marges */
+    max-width: 600px;           /* Largeur maximale */
+}
+
+#competence ul {
+    list-style-type: none;      /* Retire les puces */
+    padding: 0;                 /* Retire le padding par défaut */
+}
+
+#competence li {
+    padding: 10px;              /* Espacement autour des éléments de la liste */
+    /* Enlève la transition pour l'effet de survol */
+    /* transition: background-color 0.3s; */  
+}
+
+/* Supprime ou commente la règle ci-dessous pour enlever l'effet de survol */
+/*
+#competence li:hover {
+    background-color: #e0f7fa;  /* Couleur de fond au survol */
+}
+section#boulot {
+    background-color: #fff8e1;  /* Couleur de fond douce */
+    padding: 20px;               /* Espacement interne */
+    border: 1px solid #ccc;      /* Bordure grise */
+    border-radius: 8px;          /* Coins arrondis */
+    margin: 40px 20px;           /* Marges : 40px en haut/bas, 20px à gauche/droite */
+    max-width: 600px;            /* Largeur maximale */
+    text-align: center;          /* Centre le texte horizontalement */
+}
+
+section#boulot h3 {
+    margin-bottom: 20px;         /* Espacement sous le titre */
+}
+
+section#boulot p {
+    line-height: 1.5;            /* Hauteur de ligne pour plus de lisibilité */
+}
+
+/*.qui, .competence, .boulot {
+    height: auto; /* Évite une taille fixe pour permettre aux sections de s'adapter au contenu */
+/*    min-height: 50vh; /* Garde une hauteur minimale de 50% de la hauteur de l'écran */*/
+}*/
+#contact-info {
+    margin-top: 20px;          /* Espacement au-dessus du texte */
+    font-size: 1.2em;          /* Taille de police */
+    color: #333;               /* Couleur du texte */
+}
+
+.contact-icons {
+    display: flex;               /* Utilise flexbox pour l'alignement */
+    justify-content: center;     /* Centre les icônes */
+    gap: 20px;                  /* Espace entre les icônes */
+}
+
+.contact {
+    transition: transform 0.3s; /* Transition pour l'effet de survol */
+}
+
+.contact:hover {
+    transform: scale(1.1);      /* Agrandit l'icône au survol */
+}
+
+/* Ajout de quelques transitions pour un effet visuel plus agréable */
+section, #sommaire h3 {
+    transition: all 0.3s ease-in-out;
+}

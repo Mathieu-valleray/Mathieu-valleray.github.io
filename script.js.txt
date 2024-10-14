@@ -1,0 +1,10 @@
+// script.js
+document.getElementById('phone-icon').onclick = function() {
+    document.getElementById('contact-info').innerText = 'Téléphone : 0750214584';
+    document.getElementById('contact-info').style.display = 'block'; // Affiche le texte
+};
+
+document.getElementById('email-icon').onclick = function() {
+    document.getElementById('contact-info').innerText = 'Email : mathieu.valleray@example.com';
+    document.getElementById('contact-info').style.display = 'block'; // Affiche le texte
+};
