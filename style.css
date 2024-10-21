@@ -84,21 +84,8 @@ header h2 {
 }
 #boulot {
     padding: 20px;               /* Espacement interne */
-    border: 1px solid #ccc;      /* Bordure grise */
-    border-radius: 8px;          /* Coins arrondis */
     margin: 40px 20px;           /* Marges : 40px en haut/bas, 20px à gauche/droite */
     max-width: 600px;            /* Largeur maximale */
-    text-align: center;          /* Centre le texte horizontalement */
-    display: flex;
-    justify-content: center;
-}
-
-/* section#boulot h3 {
-    margin-bottom: 20px;         /* Espacement sous le titre */
-} */
-
-section#boulot p {
-    line-height: 1.5;            /* Hauteur de ligne pour plus de lisibilité */
 }
 
 #contact-info {
