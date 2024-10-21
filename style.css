@@ -82,12 +82,6 @@ header h2 {
     /* Enlève la transition pour l'effet de survol */
     /* transition: background-color 0.3s; */  
 }
-
-/* Supprime ou commente la règle ci-dessous pour enlever l'effet de survol */
-/*
-#competence li:hover {
-    background-color: #e0f7fa;  /* Couleur de fond au survol */
-}
 section#boulot {
     background-color: #fff8e1;  /* Couleur de fond douce */
     padding: 20px;               /* Espacement interne */
@@ -106,10 +100,6 @@ section#boulot p {
     line-height: 1.5;            /* Hauteur de ligne pour plus de lisibilité */
 }
 
-/*.qui, .competence, .boulot {
-    height: auto; /* Évite une taille fixe pour permettre aux sections de s'adapter au contenu */
-/*    min-height: 50vh; /* Garde une hauteur minimale de 50% de la hauteur de l'écran */*/
-}*/
 #contact-info {
     margin-top: 20px;          /* Espacement au-dessus du texte */
     font-size: 1.2em;          /* Taille de police */
